@@ -1,0 +1,22 @@
+//P is Principal amount.
+//R is rate per annum.
+//T is time in years.
+
+import java.util.Scanner;
+public class JavaPractice
+{
+    public static void main(String args[]) 
+    {
+        float p, r, t, sinterest;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Principal : ");
+        p = scan.nextFloat();
+        System.out.print("Rate of interest : ");
+        r = scan.nextFloat();
+        System.out.print("Time period : ");
+        t = scan.nextFloat();
+        scan.close();
+        sinterest = (p * r * t) / 100;
+        System.out.print("Simple Interest is: " +sinterest);
+    }
+}
