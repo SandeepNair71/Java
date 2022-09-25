@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class CGPA {
+    
+    public static void main(String [] args) {
+        Scanner sc=new Scanner(System.in);
+        
+        System.out.println("Enter marks of english: ");
+        int a=sc.nextInt(); 
+        
+         System.out.println("Enter marks of maths: ");
+        int b=sc.nextInt(); 
+        
+         System.out.println("Enter marks of science: ");
+        int c=sc.nextInt(); 
+        
+        float cgpa = (a + b + c)/30;
+        System.out.println(cgpa );
+    }
+}
