@@ -1,18 +1,18 @@
 import java.util.*;
  
-public class Addition{
+public class Sum{
  
      public static void main(String []args){
-         int a,b,add;
-         /*scanner class object to read values*/
+
+        /*scanner class object to read values*/
          Scanner num=new Scanner(System.in); 
           
          System.out.print("Enter first number: ");
-         a=num.nextInt();
+         int a=num.nextInt();
          System.out.print("Enter second number: ");
-         b=num.nextInt();
+         int b=num.nextInt();
           
-         add= a+b;
+         int add= a+b;
           
          System.out.println("Addition is: " + add);
      }
