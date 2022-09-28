@@ -26,11 +26,13 @@ import java.util.Scanner;
         if(balance >= withdraw)  
         {  
             balance = balance - withdraw;  
-            System.out.println("collect your money");  
+            System.out.println("collect your money");
+            
+            System.out.println("Balance amount is "+balance);
         }  
         else  
         {  
-            System.out.println("Insufficient Balance");  
+            System.out.println("Insufficient Balance");
         }  
         System.out.println("");  
         break;  
@@ -42,7 +44,8 @@ import java.util.Scanner;
         deposit = sc.nextInt();  
                       
         balance = balance + deposit;  
-        System.out.println("successfully depsited");  
+        System.out.println("successfully depsited");
+        System.out.println("Balance amount is "+balance);
         System.out.println("");  
         break;  
    
